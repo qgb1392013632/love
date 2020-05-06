@@ -5,7 +5,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>HTML5+jQuery制作温馨浪漫爱心表白动画特效(我们程序员也有浪漫的时候)</title>
-
+	<script>window.onload = function () {
+			var htmlTag = document.getElementsByTagName('html')[0]
+			htmlTag.style.fontSize = (document.documentElement.clientWidth / 7.5) + 'px'
+		}</script>
 	<style type="text/css">
 		@font-face {
 			font-family: digit;
@@ -15,17 +18,17 @@
 		#img1 {
 			width: 200px;
 			position: absolute;
-			top: 150px;
-			left: 80px;
+			top: 3rem;
+			left: 4rem;
 			transform: rotate(-40deg);
 			display: none;
 		}
 
 		#img5 {
-			width: 300px;
+			width: 3rem;
 			position: absolute;
-			top: 500px;
-			left: 80px;
+			top: 1.5rem;
+			left: 5.3rem;
 			display: none;
 			transform: rotate(20deg);
 		}
@@ -33,8 +36,8 @@
 		#img3 {
 			width: 150px;
 			position: absolute;
-			top: 650px;
-			left: 400px;
+			top: 10rem;
+			left: 4rem;
 			display: none;
 			transform: rotate(20deg);
 		}
@@ -45,8 +48,8 @@
 			height: 100px;
 			background: #f00;
 			position: absolute;
-			top: 500px;
-			left: 1400px;
+			top: 6rem;
+			left: 7rem;
 			transform: rotate(45deg);
 			filter: drop-shadow(0px 0px 6px rgb(255, 20, 20));
 			animation: heartbeat 1s linear infinite;
@@ -189,7 +192,7 @@
 					case 12:
 						$('#img1').fadeIn(1200)
 						break;
-					case 14:
+					case 24:
 						$('#img3').fadeIn(1200)
 						break;
 					case 31:
