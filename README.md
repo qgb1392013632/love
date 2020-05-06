@@ -1,2 +1,2 @@
 ## 点击查看演示
-<a href="./index/">index</a>
+<a href="./love.html/">click me</a>
